@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 85%;
+    margin: auto;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+nav {
+    height: 80px;
+}
+
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li a {
+    color: #1E201E;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+nav ul li a:hover {
+    color:#1E201E;
+    opacity: 50%;
+    transition: 0.1s;
+}
+
+nav ul li a:active {
+    color: #F5F5F5;
+}
+
+.heading-container {
+    font-family: "Inter", sans-serif;
+    margin: 5%;
+}
+
+.heading-container h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    color: #1E201E;
+    margin-bottom: 10px;
+}
+
+.heading-container h1 em {
+    
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+
+.contact-container {
+    width: 85%;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 60%;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+}
+
+.contact-container input{
+    background-color: #1E201E;
+    opacity: 90%;
+    padding: 1.7rem;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.contact-container .send-btn {
+    text-align: start;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+
+}
+
+.contact-container .send-btn button {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: #EEEDEB;
+    border: 2 solid #1E201E;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #1E201E;
+}
+
+.contact-container .send-btn button:hover {
+    background-color: #E2DAD6;
+    transition: 0.2s;
+}
+
+.contact-container .send-btn button:active {
+    background-color: #1E201E;
+    color: #F5F5F5;
+    transition: 0.1s;
+}
+
+.footer-container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.footer-container ul p {
+    margin-top: 1rem;
+}
+
